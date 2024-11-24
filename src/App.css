@@ -15,13 +15,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 24px;
 }
 
 .App-link {
@@ -35,4 +35,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Additional styles for the new components */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+h2, h3, h4 {
+  color: #282c34;
+}
+
+input:focus {
+  outline: 2px solid #61dafb;
+  outline-offset: -1px;
 }
